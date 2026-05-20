@@ -1,0 +1,22 @@
+{
+  "name": "account-verified-email",
+  "version": "1.0.0",
+  "description": "Create README.md file",
+  "homepage": "https://github.com/Mozahedul/account-verified-email#readme",
+  "bugs": {
+    "url": "https://github.com/Mozahedul/account-verified-email/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mozahedul/account-verified-email.git"
+  },
+  "license": "MIT",
+  "author": "Mozahedul Islam",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "mjml index.mjml -o index.html",
+    "watch": "nodemon --ext mjml --exec \"npm run build\" "
+  }
+}
